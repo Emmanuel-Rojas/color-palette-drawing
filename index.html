@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Selector de Color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎨 Selector de Color</h1>
+
+        <section>
+            <label>Elegí un color:
+                <input type="color" id="colorPicker">
+            </label>
+            <div id="colorBox"></div>
+            <p id="colorCode"></p>
+        </section>
+
+        <section>
+            <h2>🖼️ Cargar imagen</h2>
+            <input type="file" id="imageInput" accept="image/*">
+            <canvas id="canvas"></canvas>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

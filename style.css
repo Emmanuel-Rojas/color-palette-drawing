@@ -1,0 +1,69 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #90caf9;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+#colorPicker {
+    margin-left: 10px;
+    width: 50px;
+    height: 30px;
+    border: none;
+    background: none;
+}
+
+#colorBox {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #ffffff; /* Color por defecto */
+}
+
+#colorPalette {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right, red, yellow, lime, cyan, blue, magenta, red), 
+                linear-gradient(to top, black, transparent, white);
+    background-blend-mode: multiply;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    position: relative;
+    cursor: crosshair;
+}
+
+#colorCode {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #b0bec5;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+canvas {
+    margin-top: 20px;
+    max-width: 100%;
+    border: 1px solid #424242;
+    border-radius: 8px;
+}
