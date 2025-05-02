@@ -32,6 +32,11 @@ imageInput.addEventListener('change', (event) => {
     reader.readAsDataURL(file);
 });
 
+// Botón "Seleccionar archivo"
+document.getElementById('selectFileButton').addEventListener('click', () => {
+    document.getElementById('imageInput').click();
+});
+
 // Clic en imagen para obtener color
 canvas.addEventListener('click', (event) => {
     const rect = canvas.getBoundingClientRect();
